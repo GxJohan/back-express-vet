@@ -151,6 +151,23 @@ mi-proyecto-express/
 - **dotenv**: Manejo de variables de entorno
 - **nodemon**: Reinicia automáticamente el servidor al detectar cambios
 
+---
+
+## Orden para agregar nuevas entidades
+
+Si quieres agregar una nueva entidad (por ejemplo, Mascota), sigue este orden:
+
+**Orden correcto:**
+
+1. **Mascota.js** (modelo/entidad)
+2. **mascotaController.js** (lógica de negocio)
+3. **mascotaRoutes.js** (rutas)
+4. **app.js** (registrar rutas)
+
+**Lógica:** Primero defines la estructura de datos, luego la lógica que los manipula, después las rutas que usan esa lógica, y finalmente conectas todo en el archivo principal.
+
+---
+
 ## Próximos pasos
 
 1. Agregar rutas para tu API
