@@ -1,0 +1,31 @@
+# add git ignore rules here pero analiza este proyecto
+# Ignore node_modules directory
+node_modules/   
+# Ignore log files
+*.log
+# Ignore environment variable files
+.env
+# Ignore build directories
+dist/
+# Ignore temporary files
+*.tmp
+# Ignore coverage reports
+coverage/
+# Ignore IDE specific files
+.idea/
+# Ignore OS generated files
+.DS_Store
+# Ignore npm debug log
+npm-debug.log*
+# Ignore yarn lock files
+yarn.lock
+# Ignore package lock files
+package-lock.json
+# Ignore test output files
+test-output/
+# Ignore .claude files
+.claude/
+# Ignore backup files
+*~
+# Ignore editor swap files
+*.swp
